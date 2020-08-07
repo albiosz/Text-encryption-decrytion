@@ -21,5 +21,5 @@ To run compiled program use: <br/>
 * **-alg** - select algorithm from two available: "unicode" or "shift" (default = "unicode") e.g. -alg shift
 
 ## Examples of usage
-`java Main -mode enc -in toEncrypt.txt -out encrypted.txt -key 5 -alg unicode`
+`java Main -mode enc -in toEncrypt.txt -out encrypted.txt -key 5 -alg unicode` <br/>
 `java Main -key 5 -alg shift -data "Welcome!" -mode enc`
